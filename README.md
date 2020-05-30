@@ -23,6 +23,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Launches the integration test runner from [Cypress](https://docs.cypress.io/guides/getting-started/testing-your-app.html#Step-1-Start-your-server). See `yarn cypress` for other commands.
 
+Remember that it expects you to start the development server (`yarn start`) separately, as it will use it to run the tests.
+
 ### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
